@@ -8,6 +8,6 @@ public class UserController {
 	
 	@GetMapping("/test")
 	public String getVersion() {
-		return "Success!";
+		return "Success! This is the final test.";
 	}
 }
